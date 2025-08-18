@@ -1,0 +1,135 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Editors / IDEs =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== Python basics =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+.notebook_cache/
+.jupyter/
+
+# ===== Logs / temps =====
+logs/
+*.log
+tmp/
+temp/
+*.pid
+
+# ===== Envs & Secrets =====
+.env
+.env.*
+secrets.*
+secrets/
+*.key
+*.pem
+*.crt
+*.p12
+*.token
+*.credentials
+# כן להשאיר דוגמאות:
+!.env.example
+!secrets.example
+!configs/*.example.*
+!configs/*.template.*
+
+# ===== Project data & artifacts (לא מעלים לגיט) =====
+data/
+datasets/
+raw_data/
+inputs/
+outputs/
+artifacts/
+experiments/
+checkpoints/
+runs/
+mlruns/
+wandb/
+tensorboard/
+# אם צריך לשמור מבנה תיקיות:
+!data/.gitkeep
+!outputs/.gitkeep
+!models/.gitkeep
+
+# קבצי דאטה/מודלים/בינאריים נפוצים
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+*.parquet
+*.feather
+*.db
+*.sqlite*
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pickle
+*.pkl
+*.npz
+*.npy
+*.onnx
+
+# ארכיונים ומדיה גדולה
+*.zip
+*.7z
+*.gz
+*.bz2
+*.xz
+*.tar
+*.rar
+*.mp4
+*.mov
+*.avi
+*.wav
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.webp
+
+# ===== Configs רגישים (משאירים רק תבניות) =====
+configs/*.local.*
+configs/*secret*
+configs/*secrets*
+configs/*.private.*
+# דוגמאות/תבניות כן יעלו
+!configs/README.md
+
+# ===== Poetry / Pipenv (אם בשימוש) =====
+.poetry/
+*.lock
+Pipfile.lock
+
+# ===== VS / JetBrains build caches =====
+out/
+build/
+dist/
+# ===== Miscellaneous =====
+*.swp
+*.swo
+*.bak
+*.tmp
