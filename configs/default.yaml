@@ -1,5 +1,5 @@
 data_path: "data/NTU60_CS.npz"
-batch_size: 32
+batch_size: 16
 epochs: 10
 seq_len: 300
 feature_dim: 150
