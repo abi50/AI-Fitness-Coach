@@ -157,4 +157,4 @@ Serves as the base for Phase 2: form/quality assessment.
 
 ## 👩‍💻 Author
 
-Developed by Abigail Berk (or Abigail Barak --- בחרי את הכתיב הנכון).
+Developed by Abigail Berk.
